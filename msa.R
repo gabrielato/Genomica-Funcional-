@@ -22,7 +22,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("ggtree")
 
 ###
-
+library(seqinr)
 library(Biostrings)
 library (msa)
 library(seqinr)
